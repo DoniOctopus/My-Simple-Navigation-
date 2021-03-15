@@ -32,8 +32,8 @@ class NavigationFragment : Fragment(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when(v){
-            btn_home -> findNavController().navigate(R.id.action_navigationFragment_to_homeFragment)
-            btn_trx -> findNavController().navigate(R.id.action_navigationFragment_to_transactionFragment)
+//            btn_home -> findNavController().navigate(R.id.action_navigationFragment_to_homeFragment)
+//            btn_trx -> findNavController().navigate(R.id.action_navigationFragment_to_transactionFragment)
         }
     }
 }
